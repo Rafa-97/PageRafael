@@ -1,0 +1,259 @@
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+html,
+body {
+  overflow: hidden;
+  height: 100%;
+}
+
+.fundo {
+  position: fixed;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.95;
+}
+
+.cab {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+  color: rgb(165, 77, 42);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.logo {
+  width: 8rem;
+  height: 8rem;
+}
+
+.sobre {
+  position: relative;
+  border-style: double;
+  color: rgb(165, 77, 42);
+  width: 90%;
+  height: calc(100% - 15rem);
+  margin-left: 5%;
+  margin-top: 0.5rem;
+  text-align: center;
+}
+.me {
+  text-align: center;
+  top: 10rem;
+  color: rgb(0, 0, 0);
+  padding: 1rem 0;
+}
+
+.me i {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding-bottom: 7%;
+}
+
+p {
+  font-size: 1rem;
+  width: 90%;
+  margin: 6% 5%;
+}
+
+h3 {
+  width: 100%;
+  position: absolute;
+  font-style: oblique;
+  font-size: 1rem;
+  color: rgb(165, 77, 42);
+  bottom: 0.5rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.social {
+  width: 100%;
+  height: 3rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.social .icones {
+  width: 80%;
+  margin: 0 10%;
+  height: 100%;
+  text-align: center;
+  padding: 0.75rem 0;
+}
+
+.social .icones a {
+  margin: 0 7.8%;
+  font-size: 1.5rem;
+  color: rgb(165, 77, 42);
+  display: inline-block;
+}
+
+/*====== MEDIA QUERIES ===== */
+
+/* extra large devices: 760 > */
+@media (min-width: 760px) {
+  /*Cabeçalho*/
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  /*Conteudo*/
+  .sobre {
+    width: 70%;
+    height: calc(100% - 17rem);
+    margin-left: 15%;
+  }
+
+  .me i {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 10%;
+  }
+
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 20% 15%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /*rodape*/
+  .social .icones a {
+    margin: 0 9%;
+    font-size: 2.2rem;
+
+    display: inline-block;
+  }
+
+  .social .icones {
+    width: 90%;
+    margin: -1% 5%;
+  }
+}
+
+/* extra large devices: 992 > */
+@media (min-width: 992px) {
+  /*Cabeçalho*/
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  /*Conteudo*/
+  .sobre {
+    width: 70%;
+    height: calc(100% - 17rem);
+    margin-left: 15%;
+  }
+
+  .me i {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 4%;
+  }
+
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 10% 15%;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /*rodape*/
+  .social .icones a {
+    margin: 0 9%;
+    font-size: 2.2rem;
+
+    display: inline-block;
+  }
+
+  .social .icones {
+    width: 90%;
+    margin: -1% 5%;
+  }
+}
+
+/* extra large devices: 1200 > */
+@media (min-width: 1200px) {
+  /*Cabeçalho*/
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  /*Conteudo*/
+  .sobre {
+    width: 70%;
+    height: calc(100% - 17rem);
+    margin-left: 15%;
+  }
+
+  .me i {
+    font-size: 3.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    padding-bottom: 3%;
+  }
+
+  p {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: 0 15%;
+    padding: 2% 0;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /*rodape*/
+  .social .icones a {
+    margin: 0 9%;
+    font-size: 2.2rem;
+
+    transition: 0.3s;
+    display: inline-block;
+  }
+  .social a:hover {
+    transform: translateY(-8px);
+  }
+
+  .social .icones {
+    width: 90%;
+    margin: -1% 5%;
+  }
+}
